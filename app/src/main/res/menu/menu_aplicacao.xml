@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/item_novo"
+        android:title="@string/item_novo" />
+    <item
+        android:id="@+id/item_abrir"
+        android:title="@string/item_abrir" />
+    <item
+        android:id="@+id/item_salvar"
+        android:title="@string/item_salvar" >
+        <menu >
+            <item
+                android:id="@+id/item_salvar_copia"
+                android:title="@string/salvar_copia" />
+            <item
+                android:id="@+id/item_salvar_como"
+                android:title="@string/salvar_como" />
+        </menu>
+    </item>
+</menu>
